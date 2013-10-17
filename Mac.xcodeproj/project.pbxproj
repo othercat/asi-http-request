@@ -72,19 +72,19 @@
 		EF2D433D180CE39E00770F6E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF2D433B180CE39E00770F6E /* InfoPlist.strings */; };
 		EF2D433F180CE39E00770F6E /* ASIHTTPRequestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2D433E180CE39E00770F6E /* ASIHTTPRequestTests.m */; };
 		EF2D4346180CE3EB00770F6E /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B55B5D140F76568E0064029C /* ASIHTTPRequest.m */; };
-		EF2D4347180CE3F400770F6E /* ASIHTTPRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = B55B5D130F76568E0064029C /* ASIHTTPRequest.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		EF2D4347180CE3F400770F6E /* ASIHTTPRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = B55B5D130F76568E0064029C /* ASIHTTPRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EF2D4348180CE3FD00770F6E /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B55B5D120F76568E0064029C /* ASIFormDataRequest.m */; };
-		EF2D4349180CE3FF00770F6E /* ASIFormDataRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = B55B5D110F76568E0064029C /* ASIFormDataRequest.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		EF2D4349180CE3FF00770F6E /* ASIFormDataRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = B55B5D110F76568E0064029C /* ASIFormDataRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EF2D434A180CE40300770F6E /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = B55B5D160F76568E0064029C /* ASINetworkQueue.m */; };
-		EF2D434B180CE40500770F6E /* ASINetworkQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = B55B5D150F76568E0064029C /* ASINetworkQueue.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		EF2D434B180CE40500770F6E /* ASINetworkQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = B55B5D150F76568E0064029C /* ASINetworkQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EF2D434C180CE40A00770F6E /* ASIDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B552535A11D23EBB00F9B170 /* ASIDownloadCache.m */; };
-		EF2D434D180CE40D00770F6E /* ASIDownloadCache.h in Headers */ = {isa = PBXBuildFile; fileRef = B552535B11D23EBB00F9B170 /* ASIDownloadCache.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		EF2D434D180CE40D00770F6E /* ASIDownloadCache.h in Headers */ = {isa = PBXBuildFile; fileRef = B552535B11D23EBB00F9B170 /* ASIDownloadCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EF2D434E180CE41600770F6E /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = B522D71E103074AC009A2D22 /* ASIInputStream.m */; };
-		EF2D434F180CE41800770F6E /* ASIInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = B522D71D103074AC009A2D22 /* ASIInputStream.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		EF2D434F180CE41800770F6E /* ASIInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = B522D71D103074AC009A2D22 /* ASIInputStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EF2D4350180CE41E00770F6E /* ASIDataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = B53E626F1255ED8700C1E79A /* ASIDataCompressor.m */; };
 		EF2D4351180CE42400770F6E /* ASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = B53E628D1255EE4B00C1E79A /* ASIDataDecompressor.m */; };
-		EF2D4352180CE42700770F6E /* ASIDataCompressor.h in Headers */ = {isa = PBXBuildFile; fileRef = B53E62701255ED8700C1E79A /* ASIDataCompressor.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		EF2D4353180CE42B00770F6E /* ASIDataDecompressor.h in Headers */ = {isa = PBXBuildFile; fileRef = B53E628E1255EE4B00C1E79A /* ASIDataDecompressor.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		EF2D4352180CE42700770F6E /* ASIDataCompressor.h in Headers */ = {isa = PBXBuildFile; fileRef = B53E62701255ED8700C1E79A /* ASIDataCompressor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF2D4353180CE42B00770F6E /* ASIDataDecompressor.h in Headers */ = {isa = PBXBuildFile; fileRef = B53E628E1255EE4B00C1E79A /* ASIDataDecompressor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EF2D4354180CE49D00770F6E /* ASIProgressDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = B5747B3A11746CF500C9414E /* ASIProgressDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EF2D4355180CE4A400770F6E /* ASICacheDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = B552535C11D23EBB00F9B170 /* ASICacheDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EF2D4356180CE4AC00770F6E /* ASIHTTPRequestDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = B5747EA91174B1C100C9414E /* ASIHTTPRequestDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -1026,6 +1026,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				INFOPLIST_FILE = "ASIHTTPRequest/ASIHTTPRequest-Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks/";
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "74EC7E6E-1AA7-4E95-80AF-E8B7C3FEB62F";
@@ -1067,6 +1068,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				INFOPLIST_FILE = "ASIHTTPRequest/ASIHTTPRequest-Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks/";
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "74EC7E6E-1AA7-4E95-80AF-E8B7C3FEB62F";
@@ -1197,6 +1199,7 @@
 				EF2D4342180CE39E00770F6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF2D4343180CE39E00770F6E /* Build configuration list for PBXNativeTarget "ASIHTTPRequestTests" */ = {
 			isa = XCConfigurationList;
@@ -1205,6 +1208,7 @@
 				EF2D4345180CE39E00770F6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
